@@ -1,0 +1,221 @@
+.servicesPart-page, .service-page{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.servicesPart-page .servicesPart-section1 ,.service-page .service-section1{
+    background-image: url(https://webcenter.az/app/views/site/img/figure/breadcumb.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.servicesPart-page .servicesPart-section1 p ,.service-page .service-section1 p{
+    color: #ff9317;
+}
+
+.servicesPart-page .servicesPart-section1 p span ,.service-page .service-section1 p span  {
+    color: #bababa;
+}
+
+.servicesPart-page .servicesPart-section1 p a , .service-page .service-section1 p a{
+    text-decoration: none;
+    color: #bababa;
+    transition-duration: 0.5s;
+}
+
+.servicesPart-page .servicesPart-section1 p a:hover , .service-page .service-section1 p a:hover{
+    color: #ff9317 ;
+}
+
+.servicesPart-page .servicesPart-section1 h1, .service-page .service-section1  h1{
+    color: white;
+}
+
+
+.servicesPart-page .servicesPart-section2, .service-page .service-section2{
+    width: 80%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.service-page .service-section2 .service-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+}
+
+.service-page .service-section2 .service-cards .service-card .card-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-page .service-section2 .service-cards .service-card .card-img img{
+    height: 240px;
+    object-fit: cover;
+}
+.service-page .service-section2 .service-cards .service-card .card-img .plus{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+    visibility: hidden;
+}
+
+.service-page .service-section2 .service-cards .service-card:hover .card-img .plus{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    visibility: visible;
+    
+}
+
+.service-page .service-section2 .service-cards .service-card .card-img .plus .color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #ff5917, #ff9317);
+    opacity: 0.9;
+    
+}
+
+.service-page .service-section2 .service-cards .service-card .card-img .plus a{
+  position: absolute;
+  top: 0;
+  font-size: 50px;
+  color: white;
+  transition-duration: 0.2s;
+  visibility: hidden;
+}
+
+.service-page .service-section2 .service-cards .service-card .card-img .plus a:hover{
+    color: #001ea2;
+}
+
+
+.service-page .service-section2 .service-cards .service-card:hover .card-img .plus a{
+  visibility: visible;
+  transform: translateY(100px);
+}
+
+.service-page .service-section2 .service-cards .service-card img{
+    width: 100%;
+    object-fit:cover;
+}
+
+.service-page .service-section2 .service-cards .service-card .text{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 30px;
+    transition-duration: 0.3s;
+    color: #444;
+    font-weight: bold;
+
+}
+
+.service-page .service-section2 .service-cards .service-card .text:hover{
+    color: #001ea2;
+}
+
+.servicesPart-page .servicesPart-section2 .servicesPart-main{
+    width: 70%;
+}
+
+.servicesPart-page .servicesPart-section2 .servicesPart-main img{
+    width: 760px;
+}
+
+.servicesPart-page .servicesPart-section2 .servicesPart-main h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.servicesPart-page .servicesPart-section2 .servicesPart-main h3{
+    font-size: 18px;
+    color: #646464;
+}
+
+.servicesPart-page .servicesPart-section2 .servicesPart-main p{
+    color: #646464;
+    line-height: 30px;
+}
+
+.servicesPart-page .servicesPart-section2 .choose{
+    width: 30%;
+    height: fit-content;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    padding: 35px 40px 25px;
+}
+
+.servicesPart-page .servicesPart-section2 .choose .choose-herader{
+    padding: 20px;
+}
+
+.servicesPart-page .servicesPart-section2 .choose .choose-herader h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.servicesPart-page .servicesPart-section2 .choose .line{
+    width: 43px;
+    height: 4px;
+    background-color: #ff9317;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul{
+    padding: 0;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul a{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #bababa;
+    padding: 20px 0;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul a:hover li{
+    transform: translateX(10px);
+    color: #007bff;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul a:hover i{
+    color: #ff9317;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul a i{
+    color: #444;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    margin-top: 3px;
+}
+
+.servicesPart-page .servicesPart-section2 .choose ul a li{
+    list-style: none;
+    color: #444;
+    transition-duration: 0.5s;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}

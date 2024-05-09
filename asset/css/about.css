@@ -1,0 +1,126 @@
+.about-page {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.about-page .about-section1 {
+    background-image: url(https://webcenter.az/app/views/site/img/figure/breadcumb.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.about-page .about-section1 p {
+    color: #ff9317;
+}
+
+.about-page .about-section1 p span {
+    color: #bababa;
+}
+
+.about-page .about-section1 p a {
+    text-decoration: none;
+    color: #bababa;
+    transition-duration: 0.5s;
+}
+
+.about-page .about-section1 p a:hover {
+    color: #ff9317;
+}
+
+.about-page .about-section1 h1 {
+    color: white;
+}
+
+.about-page .about-section2 {
+    width: 80%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.about-page .about-section2 .about-main {
+    width: 70%;
+}
+
+.about-page .about-section2 .about-main h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-page .about-section2 .about-main p {
+    color: #646464;
+    line-height: 30px;
+}
+
+.about-page .about-section2 .choose {
+    width: 30%;
+    height: fit-content;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    padding: 35px 40px 25px;
+}
+
+.about-page .about-section2 .choose .choose-herader {
+    padding: 20px;
+}
+
+.about-page .about-section2 .choose .choose-herader h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.about-page .about-section2 .choose .line {
+    width: 43px;
+    height: 4px;
+    background-color: #ff9317;
+}
+
+.about-page .about-section2 .choose ul {
+    padding: 0;
+}
+
+.about-page .about-section2 .choose ul a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #bababa;
+    padding: 20px 0;
+}
+
+.about-page .about-section2 .choose ul a:hover li {
+    transform: translateX(10px);
+    color: #007bff;
+}
+
+.about-page .about-section2 .choose ul a:hover i {
+    color: #ff9317;
+}
+
+.about-page .about-section2 .choose ul a i {
+    color: #444;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    margin-top: 3px;
+}
+
+.about-page .about-section2 .choose ul a li {
+    list-style: none;
+    color: #444;
+    transition-duration: 0.5s;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}

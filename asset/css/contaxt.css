@@ -1,0 +1,113 @@
+.contaxt-page{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.contaxt-page .contaxt-section1{
+    background-image: url(https://webcenter.az/app/views/site/img/figure/breadcumb.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.contaxt-page .contaxt-section1 p{
+    color: #ff9317;
+}
+
+.contaxt-page .contaxt-section1 p span{
+    color: #bababa;
+}
+
+.contaxt-page .contaxt-section1 p a{
+    text-decoration: none;
+    color: #bababa;
+    transition-duration: 0.5s;
+}
+
+.contaxt-page .contaxt-section1 p a:hover{
+    color: #ff9317 ;
+}
+
+.contaxt-page .contaxt-section1 h1{
+    color: white;
+}
+
+.contaxt-section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.section2-header{
+    width: 80%;
+}
+
+.contaxt-section2 .section2-header h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.contaxt-section2 .section2-header .line{
+    width: 43px;
+    height: 4px;
+    background-color: #ff9317;
+}
+
+.contaxt-section2 .contaxt-cards{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.contaxt-section2 .contaxt-cards .contaxt-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contaxt-section2 .contaxt-cards .contaxt-card .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaxt-section2 .contaxt-cards .contaxt-card .icon i{
+    color: #444;
+    transition-duration: 0.5s;
+    font-size: 23px;
+}
+
+.contaxt-section2 .contaxt-cards .contaxt-card .card-text h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #001ea2;
+    margin: 0;
+    margin-bottom: 10px;
+    transition-duration: 0.5s;
+}
+
+.contaxt-section2 .contaxt-cards .contaxt-card .card-text p{
+    color: #646464;
+    font-size: 16px;
+    margin: 0;
+}
